@@ -1,0 +1,32 @@
+{
+  "name": "@viva-eng/sdk",
+  "version": "2.0.0",
+  "description": "SDK for interacting with Viva APIs",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viva-engineering/sdk.git"
+  },
+  "keywords": [
+    "sdk",
+    "viva"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viva-engineering/sdk/issues"
+  },
+  "homepage": "https://github.com/viva-engineering/sdk#readme",
+  "devDependencies": {
+    "@types/node": "^11.11.4",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "@viva-eng/logger": "^2.0.0",
+    "@viva-eng/http-client": "^2.0.1",
+    "eslint": "^6.1.0",
+    "typescript": "^3.7.0"
+  }
+}
